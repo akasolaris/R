@@ -113,5 +113,5 @@ PassengerId <- ship.test$PassengerId
 output.df <- as.data.frame(PassengerId)
 output.df$Survived <- Survived
 
-write.csv(output.df,file="kaggle_submission_F1.csv",row.names = FALSE)
+#write.csv(output.df,file="kaggle_submission_F1.csv",row.names = FALSE)
 #-----------E-N-D---------------#
